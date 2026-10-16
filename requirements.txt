@@ -1,0 +1,2 @@
+# Desktop and local web versions need NO packages. gunicorn is only used by online hosting (Render, etc.).
+gunicorn

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: medical-expert-system
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:application
